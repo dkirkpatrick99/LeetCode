@@ -1,5 +1,0 @@
-class Reward < ApplicationRecord
-
-    
-
-end
