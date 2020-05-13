@@ -1,0 +1,14 @@
+<h1>all poems</h1>
+
+<div>
+    <ul>
+        <% @user.poems.each do |poem|%>
+        <% poem.title%>
+        <%= poem.stanzas %>
+        <form action="<%= poem_url(poem)" method="POST">
+            <input type="hiddem" name="_method" value="PATCH">
+            <input type="submit" value="Edit Poem">
+        </form>
+        <% end %>
+    </ul>
+</div>
