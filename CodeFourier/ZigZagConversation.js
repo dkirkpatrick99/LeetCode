@@ -58,4 +58,4 @@ function convert (s, numRows) {
 
 };
 
-console.log(convert('PAYPALISHIRING', 5))
+// console.log(convert('PAYPALISHIRING', 5))
