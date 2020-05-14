@@ -80,4 +80,4 @@ function myAtoi(str) {
     
 };
 
-console.log(myAtoi("  +--+-+-+++1a.123++"))
+// console.log(myAtoi("  +--+-+-+++1a.123++"))
